@@ -2,6 +2,24 @@
   max-width: 1224px;
   margin: 0 auto;
 }
+
 .header-container{
   max-width: 1376px;
+  margin-bottom: 80px;
+}
+.hero-container{
+  max-width: 808px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.main-container{
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
