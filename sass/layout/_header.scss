@@ -1,0 +1,25 @@
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 0;
+  .logo{
+    display: flex;
+  }
+  &__list{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+  &__item{
+    @include header-link
+  }
+  &__link{
+    color: $header-link;
+    padding: 10px 0;
+  }
+  &__link:hover{
+    color: $white;
+  }
+}
+
