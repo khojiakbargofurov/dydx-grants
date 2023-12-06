@@ -281,6 +281,70 @@ table {
   margin-bottom: 80px;
 }
 
+.cards {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 80px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 392px;
+  background-color: #393953;
+  border-radius: 16px;
+}
+.card__wrapper {
+  padding: 24px;
+}
+.card__f-title {
+  color: #A59EBA;
+  font-family: Space Mono, monospace;
+  font-size: 16px;
+  line-height: 24px; /* 150% */
+  padding-bottom: 8px;
+}
+.card__title {
+  color: #fff;
+  font-family: "FlowCircular", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: -0.456px;
+  padding-bottom: 8px;
+}
+.card__description {
+  color: #fff;
+  font-family: "FlowCircular", sans-serif;
+  font-size: 16px;
+  font-weight: 450;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.176px;
+}
+.card__up-img {
+  color: #232334;
+  padding: 0;
+  border-radius: 16px;
+}
+.card .c1 {
+  padding-bottom: 172px;
+}
+.card .c2 {
+  padding-bottom: 44px;
+}
+.card .c3 {
+  padding-bottom: 160px;
+}
+
+.last-card {
+  display: flex;
+  gap: 24px;
+}
+
+.card__last {
+  padding-bottom: 80px;
+}
+
 .container {
   max-width: 1224px;
   margin: 0 auto;
